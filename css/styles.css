@@ -169,6 +169,10 @@ img {
 
 .bg-hero {
   background-color: var(--navyblue);
+  background-image: url(../images/dark-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .nav-menu {
@@ -320,6 +324,12 @@ img {
   flex-wrap: wrap;
   margin-left: -30px;
   margin-top: -30px;
+}
+
+.benefits .item {
+  background-color: var(--cloud);
+  width: 264px;
+  height: 112px;
 }
 
 .page-footer.bg-footer {
