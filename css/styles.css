@@ -170,7 +170,7 @@ img {
 
 .bg-hero {
   background-color: var(--navyblue);
-  background-image: url(../images/dark-bg.jpg);
+  background-image: url(../images/people-office.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -332,6 +332,45 @@ img {
   width: 264px;
   height: 112px;
 }
+
+/* icons section */
+
+.icon-list {
+  display: flex;
+  gap: 30px;
+}
+
+.icon-item {
+  width: calc((100% - 150px) / 6);
+  height: 90px;
+}
+
+.icon-link {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #8e8f99;
+  border-radius: 5px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: #8e8f99;
+}
+
+.icon-icon {
+  width: 100px;
+  height: 60px;
+  fill: currentColor;
+}
+
+.icon-link:hover,
+.icon-link:focus {
+  border-color: #404bbf;
+  color: #404bbf;
+}
+
+/* Footer */
 
 .page-footer.bg-footer {
   background: var(--navyblue, #2e2f42);
