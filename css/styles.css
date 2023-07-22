@@ -370,16 +370,6 @@ img {
   color: #404bbf;
 }
 
-/* Footer */
-
-.page-footer.bg-footer {
-  background: var(--navyblue, #2e2f42);
-}
-
-.page-footer {
-  padding: 60px 0;
-}
-
 .projects {
   flex-wrap: wrap;
   display: flex;
@@ -393,6 +383,22 @@ img {
   margin-top: 30px;
 }
 
+
+/* Footer */
+
+.page-footer.bg-footer {
+  background: var(--navyblue, #2e2f42);
+}
+
+.page-footer {
+  padding: 60px 0;
+}
+
+.page-footer .container {
+  display: flex;
+}
+
+
 .studio-footer {
   color: var(--cloud, #f4f4fd);
 }
@@ -401,4 +407,13 @@ img {
   color: var(--cloud, #f4f4fd);
   font-size: 16px;
   padding-top: 17px;
+}
+
+.social-title {
+  color: white;
+  font-family: Roboto;
+}
+ .social-icon {
+  display: flex
+  gap: 16px;
 }
