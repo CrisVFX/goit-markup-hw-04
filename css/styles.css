@@ -228,6 +228,31 @@ img {
     0px 2px 1px rgba(0, 0, 0, 0.12);
 }
 
+.team-social {
+  display: flex
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+
+.team-social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  width: 40px;
+  height: 40px;
+  background-color: var(--iris);
+  border-radius: 50%;
+  }
+
+.team-social-linkbox {
+  display: flex;
+  width: 16px;
+  height: 16px;
+}
+
 .team .name,
 .team .position {
   font-size: 16px;
@@ -421,11 +446,14 @@ letter-spacing: 0.72px;
   color: white;
   font-family: Roboto;
 }
- .social-icon {
-  display: flex
-  gap: 16px;
-}
 
-.social-container{
+.social-icon {
   display: flex;
-  
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  width: 24pxpx;
+  height: 24px;
+  background-color: var(--iris);
+  border-radius: 50%;
+}
