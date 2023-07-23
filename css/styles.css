@@ -373,6 +373,7 @@ img {
   font-weight: 700;
   line-height: 40px; /* 111.111% */
   letter-spacing: 0.72px;
+  margin-bottom: 50px;
 }
 
 .icon-list {
@@ -431,10 +432,6 @@ img {
   padding: 60px 0;
 }
 
-.page-footer .container {
-  display: flex;
-}
-
 .studio-footer {
   color: var(--cloud, #f4f4fd);
 }
@@ -451,12 +448,13 @@ img {
 }
 
 .social-icon {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 16px;
   width: 24pxpx;
   height: 24px;
   background-color: var(--iris);
   border-radius: 50%;
+  fill: var(--cloud);
+}
+
+.social-item {
+  display: flex;
 }
