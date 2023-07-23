@@ -286,6 +286,10 @@ img {
   gap: 24px;
 }
 
+.team .team-social {
+  display: flex;
+}
+
 .team-social-link {
   display: flex;
   justify-content: center;
