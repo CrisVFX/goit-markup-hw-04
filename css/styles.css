@@ -244,6 +244,7 @@ img {
   height: 40px;
   background-color: var(--iris);
   border-radius: 50%;
+  fill: var(--cloud);
 }
 
 .team-social-linkbox {
