@@ -229,12 +229,11 @@ img {
 }
 
 .team-social {
-  display: flex
+  display: flex;
   justify-content: center;
   align-items: center;
   gap: 24px;
 }
-
 
 .team-social-link {
   display: flex;
@@ -245,12 +244,18 @@ img {
   height: 40px;
   background-color: var(--iris);
   border-radius: 50%;
-  }
+}
 
 .team-social-linkbox {
   display: flex;
   width: 16px;
   height: 16px;
+}
+
+.team-social-link:hover,
+.team-social-link:focus {
+  background-color: var(--ocean);
+  cursor: pointer;
 }
 
 .team .name,
@@ -363,10 +368,10 @@ img {
 .icon-title {
   text-align: center;
   font-family: Roboto;
-font-size: 36px;
-font-weight: 700;
-line-height: 40px; /* 111.111% */
-letter-spacing: 0.72px;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px; /* 111.111% */
+  letter-spacing: 0.72px;
 }
 
 .icon-list {
@@ -384,17 +389,15 @@ letter-spacing: 0.72px;
   height: 100%;
   border: 1px solid #8e8f99;
   border-radius: 5px;
-
   display: flex;
   justify-content: center;
   align-items: center;
-
   color: #8e8f99;
 }
 
 .icon-icon {
-  width: 100px;
-  height: 60px;
+  width: 104px;
+  height: 56px;
   fill: currentColor;
 }
 
@@ -417,7 +420,6 @@ letter-spacing: 0.72px;
   margin-top: 30px;
 }
 
-
 /* Footer */
 
 .page-footer.bg-footer {
@@ -428,7 +430,7 @@ letter-spacing: 0.72px;
   padding: 60px 0;
 }
 
-.page-footer .container{
+.page-footer .container {
   display: flex;
 }
 
