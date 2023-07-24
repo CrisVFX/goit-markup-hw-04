@@ -163,7 +163,7 @@ img {
 
 /* Hero Section */
 
-.bg-hero {
+.hero {
   background-color: var(--navyblue);
   background-image: url(../images/people-office.jpg);
   background-size: cover;
