@@ -164,11 +164,12 @@ img {
 /* Hero Section */
 
 .hero {
-  background-color: var(--navyblue);
+  background-color: var(--grey, rgba(46, 47, 66, 0.7));
   background-image: url(../images/people-office.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background-blend-mode: overlay;
 }
 
 .hero {
