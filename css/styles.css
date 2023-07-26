@@ -417,7 +417,7 @@ img {
 .footer-description {
   color: var(--cloud, #f4f4fd);
   font-size: 16px;
-  padding-top: 17px;
+  padding-top: 16px;
 }
 
 .icon-item {
@@ -430,14 +430,9 @@ img {
   align-content: center;
 }
 
-.icon {
-  fill: var(--cloud);
-  width: 16px;
-  height: 16px;
-}
-
 .team .icon {
   margin: 12px 12px;
+  fill: var(--cloud);
 }
 
 .footer-heading {
@@ -457,6 +452,15 @@ img {
   margin-left: 8px;
 }
 
+.footer-block {
+  gap: 16px;
+}
+
 .footer-address {
-  display: inline;
+  margin-right: 120px;
+}
+
+.footer {
+  display: inline-flex;
+  justify-content: space-between;
 }
