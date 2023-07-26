@@ -330,6 +330,12 @@ img {
   margin-top: 30px;
 }
 
+.benefits .icon {
+  border-radius: 4px;
+  background: var(--cloud, #f4f4fd);
+  height: 112px;
+}
+
 .benefits {
   display: flex;
   flex-wrap: wrap;
@@ -404,20 +410,18 @@ img {
   padding-top: 17px;
 }
 
-.social-team {
+.icon-item {
   width: 40px;
   height: 40px;
+  fill: var(--cloud);
   background-color: var(--iris);
   border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  gap: 24px;
+
+  bottom: 0;
 }
 
-.icon-item {
-  width: 24px;
-  height: 24px;
-  fill: var(--cloud);
+.icon {
+  margin: 12px 12px;
 }
 
 .footer-heading {
