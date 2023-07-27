@@ -486,10 +486,10 @@ img {
 }
 
 .social-footer .link {
+  align-content: center;
   display: flex;
   height: 100%;
   align-items: center;
-  align-content: center;
   border-radius: 50%;
   color: var(--cloud);
   background-color: var(--iris);
